@@ -13,12 +13,23 @@
 * *DO NOT NOT DISTRIBUTE*
 
 
-# "ACES" DATA EXPLORATION
+# Project Overview
+
+Client Goal: Dominate the $15 billion opportunity for bridging the gap between tradional global investing practice and crypto-currency distributed trust systems.  
+
+Data Science Need: Establish a reliable, transparent and statistically valid series of metrics that can form the baseline tracking index for currencies such as Bitcoin.  Requirements include the need for additional financial tools such as ETFs to be built on top while conforming to interests of both financial consumers and providers.
+
+
+# DATA EXPLORATION
+
+Use the "ACES" framework (Acquire, Clean, Explore, Summarize) to analyze historical bitcoin data from leading exchanges and prepare for metrics.
 
 
     
 
-## ACQUIRE
+## Acquire
+
+Following SQL readings from publically and privately available historical data, CSVs of specific time-series data were generated.  These are then imported with desired characteristics.
 
 
     # Load file if necessary
@@ -36,8 +47,7 @@
     
 
 
-## CLEAN
-
+Each exchange is prepared with specific windows and time periods to enable correlations and comparisons.
 
 
 
@@ -59,7 +69,9 @@
     btcn=btcn.set_index('DateTime')
     btcn.Volume=pd.rolling_sum(btcn.Volume,window=96,min_periods=20)
 
+## CLEAN
 
+Data is arranged in dictionaries with NaN removed and then in record formats to produce volume and pricing metrics.
 
     # Prep data for C01 calculation
     exch_prices=pd.concat([bitstamp.Price,bitfinex.Price,btcn.Price,btce.Price],axis=1).dropna()
@@ -129,10 +141,12 @@
 
 
 
+Conversions to 24 aggregate volumes and pricing for proprietary index calculations.
     
     # %load modC01.py
     import numpy
     
+
     def calc_C01(volumes_24h, usd_prices, verbose=False):
       v = volumes_24h
       p = usd_prices
@@ -194,36 +208,15 @@
     
       return final_n/final_d
     
-    # if __name__ == '__main__':
-    #   print 'sample run'
-    #   usd_prices = {
-    #     'stmp-C01t-usd': 100,
-    #     'bfnx-C01t-usd': 110,
-    #     'btce-C01t-usd': 90,
-    #     'bchn-C01t-cny': 99,
-    #   }
-    #   volumes_24h = {
-    #       'stmp-C01t-usd': 10,
-    #       'bfnx-C01t-usd': 10,
-    #       'btce-C01t-usd': 11,
-    #       'bchn-C01t-cny': 12,
-    #   }
-    #   print 'usd_prices:'
-    #   print usd_prices
-    #   print 'volumes_24h:'
-    #   print volumes_24h
-    #   print 'output:'
-    #   print calc_C01(volumes_24h, usd_prices)
-
 
 
     for i in np.arange(0,len(exch_times)):
         C01.value[i]=calc_C01(exch_volumes_dict[i],exch_prices_dict[i],verbose=False)
         
 
-##  EXPLORE
+##  Explore
 
-
+Provide basic plots of data to lay the grounds for evaluative metrics.
 
     
     
@@ -268,7 +261,7 @@
 
 
 
-## SUBSET
+## Subset
 
     
 
