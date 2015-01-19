@@ -35,8 +35,11 @@
 
 
 
+
 ####Notes:
 
 * Cient and proprietary information removed in most cases
 * All material is strictly confidential and requires express permision of Scale Analytics to view.
 * DO NOT NOT DISTRIBUTE
+* Older work samples available at bit.ly/goodsmithsamples.  
+* Additional details on projects available by request.
