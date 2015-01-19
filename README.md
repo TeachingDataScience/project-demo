@@ -3,20 +3,25 @@
 
 
 ###State of the Union Analysis
-* [Link](http://scaleanalytics.com/client/oxfam/sotu/results/#!index.md) u: oxfam p: economicjustice
+*[Link](http://scaleanalytics.com/client/oxfam/sotu/results/#!index.md)*
+
+* u: oxfam p: economicjustice
 * “Wiki” style deliverable
 * Statistic and data science deliverables
 
 ###Crypto Currency Code
-* [Link](https://github.com/TeachingDataScience/project-demo/blob/master/C01_DEMO/C01_DEMO.md)
+*[Link](https://github.com/TeachingDataScience/project-demo/blob/master/C01_DEMO/C01_DEMO.md)*
+
 * Samples from a time series analysis and data visualization
 
 ###Documentation Setup
-* [Link](http://scaleanalytics.com/client/demo/docs/) u: demo p: c0urs3s
+*[Link](http://scaleanalytics.com/client/demo/docs/) u: demo p: c0urs3s*
+
 * Sample Auto-Documentation Setup
 
 ###Proposal Styles
-* [Link](http://scaleanalytics.com/client/bhrrc/svg/)
+*[Link](http://scaleanalytics.com/client/bhrrc/svg/)*
+
 * Sample Proposed Output from a larger project proposal
 
 ###Data Science Teaching
