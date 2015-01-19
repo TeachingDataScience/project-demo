@@ -26,7 +26,8 @@
 * Sample Proposed Output from a larger project proposal
 
 ###Data Science Teaching
-* [Sample Lesson on Naive Bayes](https://github.com/TeachingDataScience/data-science-course/tree/forstudentviewing/12_Naive_Bayes)
+* [Sample Python Lesson on Naive Bayes](https://github.com/TeachingDataScience/data-science-course/tree/forstudentviewing/12_Naive_Bayes)
+* [Sample R Lesson on Regression](http://scaleanalytics.com/demo/regression/#!index.md)
 * Student Work Examples
   * [Top40](http://nbviewer.ipython.org/github/lentzma/Billboard_Top_40/blob/master/DAT13FinalLentz.ipynb)
   * [Taxi Transit](http://nbviewer.ipython.org/github/josephsolway/GeneralAssembly/blob/master/DAT13-JSolway-UnitProject3.ipynb)
