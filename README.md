@@ -15,9 +15,9 @@
 * Samples from a time series analysis and data visualization
 
 ###Documentation Setup
-*[Link](http://scaleanalytics.com/client/demo/docs/) 
+*[Link](http://scaleanalytics.com/client/demo/docs/)*
 
-* u: demo p: c0urs3s*
+* u: demo p: c0urs3s
 * Sample Auto-Documentation Setup
 
 ###Proposal Styles
