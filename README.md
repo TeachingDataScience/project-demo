@@ -27,7 +27,6 @@
 
 ###Data Science Teaching
 * [Sample Lesson on Naive Bayes](https://github.com/TeachingDataScience/data-science-course/tree/forstudentviewing/12_Naive_Bayes)
-* [Data Science Curriculum Repository](https://github.com/TeachingDataScience/data-science-course)
 * Student Work Examples
   * [Top40](http://nbviewer.ipython.org/github/lentzma/Billboard_Top_40/blob/master/DAT13FinalLentz.ipynb)
   * [Taxi Transit](http://nbviewer.ipython.org/github/josephsolway/GeneralAssembly/blob/master/DAT13-JSolway-UnitProject3.ipynb)
