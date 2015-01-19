@@ -15,8 +15,9 @@
 * Samples from a time series analysis and data visualization
 
 ###Documentation Setup
-*[Link](http://scaleanalytics.com/client/demo/docs/) u: demo p: c0urs3s*
+*[Link](http://scaleanalytics.com/client/demo/docs/) 
 
+* u: demo p: c0urs3s*
 * Sample Auto-Documentation Setup
 
 ###Proposal Styles
@@ -27,7 +28,10 @@
 ###Data Science Teaching
 * [Sample Lesson on Naive Bayes](https://github.com/TeachingDataScience/data-science-course/tree/forstudentviewing/12_Naive_Bayes)
 * [Data Science Curriculum Repository](https://github.com/TeachingDataScience/data-science-course)
-* Student Work: Examples: [Top40](http://nbviewer.ipython.org/github/lentzma/Billboard_Top_40/blob/master/DAT13FinalLentz.ipynb),  [Taxi Transit](http://nbviewer.ipython.org/github/josephsolway/GeneralAssembly/blob/master/DAT13-JSolway-UnitProject3.ipynb), [Noise Complaints](http://nbviewer.ipython.org/github/shirin0604/GA-Data-Science/blob/master/Final_Project_Clean_20141119.ipynb)
+* Student Work Examples
+  * [Top40](http://nbviewer.ipython.org/github/lentzma/Billboard_Top_40/blob/master/DAT13FinalLentz.ipynb)
+  * [Taxi Transit](http://nbviewer.ipython.org/github/josephsolway/GeneralAssembly/blob/master/DAT13-JSolway-UnitProject3.ipynb)
+  * [Noise Complaints](http://nbviewer.ipython.org/github/shirin0604/GA-Data-Science/blob/master/Final_Project_Clean_20141119.ipynb)
 
 
 
